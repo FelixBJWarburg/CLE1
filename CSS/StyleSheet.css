@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+a {
+    color: #024873;
+    text-decoration: none;
+    transition: .4s;
+}
+
+a:hover {
+    color: #F2F2F2;
+    background-color: #024873;
+    padding: 10px;
+}
+
+colors {
+    color: #F2F2F2;
+    color: #03738c;
+    color: #77BDD9;
+    color: #03658C;
+    color: #024873;
+}
+
+nav {
+    border-bottom: #024873;
+    border-left: #F2F2F2;
+    border-right: #F2F2F2;
+    border-top: #F2F2F2;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+}
+
+nav img {
+    height: 15vh;
+    border-radius: 5%;
+}
+
+footer {
+    border-bottom: #F2F2F2;
+    border-left: #F2F2F2;
+    border-right: #F2F2F2;
+    border-top: #024873;
+    border-style: solid;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header {
+    font-size: 3rem;
+}
+
+.FrontPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vh;
+    background-image: url("/Images/water-splash-isolated-white-20379581.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#FrontPageParagraph {
+    padding: 3vw;
+    margin: 3vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 72, 115, 50%);
+    transition: 0.4s;
+    border-radius: 2%;
+}
+
+#FrontPageParagraph:hover {
+    transform: scale(1.01);
+    background-color: #024873;
+}
+
+.ProductDescription {
+    background-color: #03738c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3vh;
+
+}
+
+.ProductDescription img {
+    height: 50vh;
+    border-radius: 5%;
+}
+
+.ProductDescriptionText {
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 3vh;
+}
+
+#Prijs {
+    font-size: 2rem;
+}
+
+#HowToUse {
+    margin-left: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+
+.Features {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    justify-content: center;
+    margin-bottom: 3vh;
+    padding-top: 2vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+article {
+    background-color: #024873;
+    transition: 1s;
+    width: 200px;
+    padding: 10px;
+    color: #F2F2F2;
+    border-radius: 5%;
+}
+
+article:hover {
+    transform: scale(1.2);
+}
